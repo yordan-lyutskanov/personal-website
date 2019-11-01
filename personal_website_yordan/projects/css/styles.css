@@ -1,0 +1,161 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3{
+  font-family: 'Merriweather', serif;
+}
+
+hr{
+  border-top: 10px dotted;
+  color: #616a7a;
+  width: 50px;
+  margin: 1% auto;
+}
+
+@media (max-width: 1028px){
+  #title{
+  text-align: center;
+  }
+
+  .title-image-container{
+    margin: 10% 0;
+  }
+
+  .carousel-item{
+    padding: 3% 5%;
+  }
+
+  .screenshot-image{
+    width: 60%;
+  }
+}
+
+@media (min-width: 1028px){
+  .screenshot-image{
+    width: 30%;
+  }
+}
+
+/* Header */
+.title-main{
+  color:#00adb5;
+}
+
+.header-container{
+  padding: 3% 15% 5%;
+  background-color: #222831;
+}
+
+.title-container{
+  text-align: right;
+}
+
+.title-image{
+  width: 80%;
+}
+
+
+.title-under-main{
+  color: #eeeeee;
+}
+
+
+.nav-link{
+  color: #00adb5;
+}
+
+.navbar{
+  text-align: right;
+}
+
+/* Project Finance About */
+.android-project-about-container{
+  padding: 3% 15% 5%;
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+.app-heading{
+  margin: 5% auto;
+  text-align: center;
+}
+
+.icon{
+  margin: 5% 5%;
+  width:10%;
+}
+
+.title-sub-white{
+  font-size: 2rem;
+  color:#545c69;
+}
+
+.title-sub-dark{
+  font-size: 2rem;
+  color:#00adb5;
+}
+
+/* Project structure */
+.android-project-functionality-container{
+  padding: 3% 15% 5%;
+  background-color: #222831;
+  color: #eeeeee;
+  text-align: center;
+}
+
+.app-details-heading{
+  padding-top: 5%;
+}
+
+.left-col{
+  text-align: left;
+}
+
+.rigth-col{
+  text-align: right;
+  padding: auto 0;
+}
+
+.right-col-inner{
+  display: inline-block;
+  margin: auto 0;
+}
+
+/* Project looks */
+.project-looks-container{
+  padding: 3% 15% 5%;
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+.carousel-item{
+  padding: 3% 15%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+/* Footer */
+#footer{
+  padding-top: 20px;
+  background-color: #222831;
+  color: #eeeeee;
+  text-align: center;
+}
+
+.copyright{
+  margin-bottom: 0;
+}
+
+.footer-icon{
+  margin-bottom: 3%;
+  color: #545c69;
+  padding: 0px 5px;
+}
+
+.footer-icon:hover{
+  color: #eeeeee;
+}

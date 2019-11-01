@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+    <link rel="stylesheet" href="css/contactsStyles.css" />
+    <!-- Goole fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:900|Roboto&display=swap&subset=cyrillic" rel="stylesheet">
+    <!-- Bootstrap js -->
+    <script scr="https://kit.fontawesome.com/9ef7bfc071" crossorigin="anonymus"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Hi</title>
+  </head>
+  <body>
+    <section id="title">
+      <div class="header-container">
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link nav-item" href="../index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-item" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-item" href="../contacts/contacts.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <h1 class="title-main">Contacts.</h1>
+        <h3 class="title-under-main">Thank you for trying to reach out!</h3>
+      </div>
+    </section>
+    <section>
+      <div class="contact-info">
+        <h2>Contact me via email</h2>
+        <p class="email"> at <a href="mailto: lyutskanov.yordan@gmail.com">lyutskanov.yordan@gmail.com<a></p>
+        <h2>or simply use the form bellow: </h2>
+      </div>
+      <div class="contacts">
+        <div class="wrapper">
+          <form class="contact-form" action="/contact.php" method="post">
+            <div class="input-fields">
+              <input type="text" class="input" name="name" placeholder="Name" name="" value="">
+              <input type="text" class="input" name="mail" placeholder="Email" name="" value="">
+              <input type="text" class="input" name="subject" placeholder="Subject" name="" value="">
+            </div>
+            <div class="msg">
+              <textarea name="message" placeholder="Message"></textarea>
+              <button type="submit" name="submit" class="btn">
+                Send
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <hr>
+      <div class="footer-text">
+        <h2>Lorem ipsum dolor sit amet</h2>
+        <h4>Lorem ipsum dolor</h4>
+      </div>
+      <div class="footer-icon">
+        <a href="https://stackoverflow.com/users/11637587/yordan-lyutskanov" class="footer-icon"><i class="fab fa-stack-overflow fa-2x"></i></a>
+        <a href="https://github.com/yordan-lyutskanov" class="footer-icon"><i class="fab fa-github fa-2x"></i></i></a>
+        <a href="google.com" class="footer-icon"><i class="far fa-envelope fa-2x"></i></a>
+      </div>
+      <p class="copyright">© Copyright 2019 Yordan Lyutskanov</p>
+    </footer>
+  </body>
+</html>
