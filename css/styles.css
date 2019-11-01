@@ -1,6 +1,7 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+  width : 100%;
 }
 
 h1, h2{
@@ -39,22 +40,7 @@ hr{
   text-align: right;
 }
 
-@media (min-width: 992px){
-  .nav-link{
-    padding-left: 0;
-  }
-}
 
-@media (max-width: 1028px){
-  #title{
-  text-align: center;
-  }
-
-  .title-image-container{
-    margin: 10% 0;
-    text-align: center;
-  }
-}
 
 .container-fluid{
   background-color: #222831;
@@ -129,4 +115,27 @@ hr{
 
 .footer-icon:hover{
   color: #eeeeee;
+}
+
+@media (min-width: 992px){
+  .nav-link{
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 1028px){
+  #title{
+  text-align: center;
+  }
+
+  .title-image-container{
+    margin: 10% 0;
+    text-align: center;
+  }
+
+  #about-me, #why-me,
+  #what-can, #find-me{
+    padding: 10% 5%;
+  }
+
 }
